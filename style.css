@@ -8,6 +8,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow: hidden;
 }
 
 :root {
@@ -794,6 +795,7 @@ img {
         height: 100vh;
         flex-direction: column;
         z-index: 2;
+        overflow: auto;
         position: absolute; 
         overflow: hidden;
         transition: height .3s;
