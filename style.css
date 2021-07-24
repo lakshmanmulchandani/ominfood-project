@@ -8,7 +8,7 @@
 
 html {
     scroll-behavior: smooth;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 :root {
@@ -38,6 +38,7 @@ button:hover {
     from {
         transform: translateX(-100%);
     }
+
     to {
         transform: translateX(0);
     }
@@ -579,7 +580,7 @@ img {
 }
 
 .hero-section {
-   
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -760,7 +761,8 @@ img {
     }
 
     .banner-text p {
-        animation: fromRight 1s;;
+        animation: fromRight 1s;
+        ;
     }
 
     .hero {
@@ -796,7 +798,7 @@ img {
         flex-direction: column;
         z-index: 2;
         overflow: auto;
-        position: absolute; 
+        position: absolute;
         overflow: hidden;
         transition: height .3s;
         background: white;
@@ -858,7 +860,7 @@ img {
 
     }
 
-  
+
 
     /*  end of link  */
 
